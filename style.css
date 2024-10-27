@@ -1,0 +1,120 @@
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f4f4f4;
+    color: #333;
+}
+
+/* الترتيب الأساسي لعرض LTR */
+body.ltr {
+    direction: ltr;
+    text-align: left;
+}
+
+/* الترتيب الأساسي لعرض RTL */
+body.rtl {
+    direction: rtl;
+    text-align: right;
+}
+
+/* تنسيقات الشريط العلوي */
+nav {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 15px;
+    background-color: #4CAF50;
+    color: white;
+}
+
+.lang-toggle {
+    display: flex;
+    gap: 10px;
+}
+
+.lang-button {
+    background-color: #008CBA;
+    color: white;
+    border: none;
+    padding: 10px 15px;
+    cursor: pointer;
+    border-radius: 5px;
+    transition: background-color 0.3s;
+}
+
+.lang-button:hover {
+    background-color: #005f73;
+}
+
+/* تنسيق قائمة الشريط العلوي */
+nav ul {
+    list-style-type: none;
+    display: flex;
+    gap: 20px;
+}
+
+nav ul li {
+    cursor: pointer;
+    transition: color 0.3s;
+}
+
+nav ul li:hover {
+    color: #ddd;
+}
+
+/* تنسيقات الأقسام */
+.section {
+    margin: 20px auto;
+    padding: 20px;
+    max-width: 800px;
+    background-color: white;
+    border-radius: 10px;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+}
+
+/* تنسيق قسم البطل */
+.hero {
+    background-color: #e9f5e9;
+    text-align: center;
+    padding: 40px 20px;
+    border-radius: 10px;
+}
+
+.hero h1 {
+    margin-bottom: 15px;
+    color: #4CAF50;
+}
+
+.hero button {
+    background-color: #4CAF50;
+    color: white;
+    border: none;
+    padding: 10px 20px;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background-color 0.3s;
+}
+
+.hero button:hover {
+    background-color: #388E3C;
+}
+
+/* تنسيق الفقرة داخل الأقسام */
+.section h2 {
+    margin-bottom: 15px;
+}
+
+/* تنسيق القسم السفلي (Footer) */
+.footer {
+    text-align: center;
+    background-color: #333;
+    color: white;
+    padding: 20px;
+    border-radius: 10px;
+    margin-top: 20px;
+}

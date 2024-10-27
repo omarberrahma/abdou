@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html lang="ar">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>خدمات الدجاج</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body class="rtl">
+    <!-- الشريط العلوي (Navbar) -->
+    <nav>
+        <div class="lang-toggle">
+            <button id="toggle-ar" class="lang-button" onclick="setLanguage('ar')">العربية</button>
+            <button id="toggle-fr" class="lang-button" onclick="setLanguage('fr')">Français</button>
+        </div>
+        <ul>
+            <li id="nav-home">الرئيسية</li>
+            <li id="nav-about">عن الخدمات</li>
+            <li id="nav-products">المنتجات</li>
+            <li id="nav-services">الخدمات</li>
+            <li id="nav-contact">اتصل بنا</li>
+        </ul>
+    </nav>
+
+    <!-- قسم البطل (Hero Section) -->
+    <section class="section hero">
+        <h1 id="hero-title">الرعاية الطبية للصيصان</h1>
+        <p id="hero-description">نحن هنا لنقدم أفضل رعاية صحية لصغار الدواجن لضمان صحتهم ورفاهيتهم.</p>
+        <button id="hero-button">استعرض المنتجات</button>
+    </section>
+
+    <!-- قسم عن الخدمات -->
+    <section class="section about">
+        <h2 id="about-title">عن الخدمات</h2>
+        <p id="about-description">نقدم الرعاية الطبية المتخصصة في علاج الصيصان باستخدام منتجات طبية ذات جودة عالية للحفاظ على صحتهم.</p>
+    </section>
+
+    <!-- قسم المنتجات -->
+    <section class="section products">
+        <h2 id="products-title">المنتجات الطبية المتوفرة</h2>
+        <div class="product">
+            <h3 id="product1-title">دواء مناعي للصيصان</h3>
+            <p id="product1-description">يعزز مناعة الصيصان ويحافظ على صحتهم.</p>
+            <button id="product1-order">طلب الآن</button>
+        </div>
+    </section>
+
+    <!-- قسم الخدمات -->
+    <section class="section services">
+        <h2 id="services-title">الخدمات</h2>
+        <div class="service">
+            <h3 id="service1-title">الاستشارات الطبية</h3>
+            <p id="service1-description">نقدم استشارات طبية متخصصة لمعالجة الصيصان وفق أفضل المعايير.</p>
+        </div>
+    </section>
+
+    <!-- قسم الاتصال -->
+    <footer class="section footer">
+        <p id="contact-text">تواصل معنا عبر الهاتف أو البريد الإلكتروني لأي استفسار.</p>
+        <p>&copy; Abdou 2024</p>
+    </footer>
+
+    <script src="script.js"></script>
+</body>
+</html>
